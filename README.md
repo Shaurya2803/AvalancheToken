@@ -19,6 +19,7 @@ Users can mint, transfer, and burn tokens, providing flexibility in handling the
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a.sol extension (e.g., project.sol). Copy and paste the following code into the file:
 First Copy the Below code into your own Contract which You have Created, and make sure that u have imported the ERC20.sol file and also its other dependencies i.e IERC20.sol and Context.sol.
 
+```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
@@ -28,7 +29,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 // import "./ERC20.sol";
 
 contract AkDegenToken is ERC20 {
-
+    
     struct Item{
         uint id;
         string name;
@@ -80,6 +81,7 @@ contract AkDegenToken is ERC20 {
     }
 
 }
+```
 
 
 
